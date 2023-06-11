@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: my-font ;
+    src: url(../font/Lemon-Regular.ttf);
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(169, 9, 9);
+    position: relative;
+}
+
+.container {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ .box {
+    width: 40%;
+    height: 500px;
+    background-color: cornsilk;
+    margin-top: 8%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px;
+ }
+
+p:first-child {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: my-font;
+}
+
+.text {
+    font-size: 25px;
+    padding: 20px;
+    font-family: my-font;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    font-family: my-font;
+}
+
+input:focus {
+    box-shadow: 3px 3px 10px rgb(18, 121, 204);
+}
+
+.button-calculate {
+    font-family: my-font;
+    width: 25%;
+    height: 55px;
+    background-color: darkgreen;
+    color: honeydew;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    width: 45%;
+    height: 30%;
+    background-color: rgb(232, 176, 36);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: my-font;
+    font-size: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.container{
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(254, 54, 4);
+    border-radius: 100%;
+    position: absolute;
+    transition: all .3s linear;
+    left: 0;
+    top: 0;
+}
