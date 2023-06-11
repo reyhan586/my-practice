@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     width: 900px;
     height: 600px;
@@ -13,4 +14,16 @@
     transition: all .3s linear;
     left: 0;
     top: 0;
+=======
+.container{
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+    border-radius: 100%;
+    position: absolute;
+>>>>>>> 0c7c2766ee3d8f61032c7ebac469778f6cdb95e4
 }

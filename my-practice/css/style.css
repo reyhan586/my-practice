@@ -1,0 +1,7 @@
+.color {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 20px;
+    display: inline-block;
+}
